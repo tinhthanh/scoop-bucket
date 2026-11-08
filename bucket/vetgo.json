@@ -1,0 +1,21 @@
+{
+    "version": "0.3.31-fork.6",
+    "description": "Run coding agents on your own boxes: the berth CLI and laptop agent (Vetgo, a fork of Shipyard)",
+    "homepage": "https://github.com/tinhthanh/shipyard",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tinhthanh/shipyard/releases/download/v0.3.31-fork.6/berth-windows-amd64.zip",
+            "hash": "c85b7dc26b8bd32a98e97d630c5c284ec00fbe9519e63ab20e2db148808fb5cf"
+        },
+        "arm64": {
+            "url": "https://github.com/tinhthanh/shipyard/releases/download/v0.3.31-fork.6/berth-windows-arm64.zip",
+            "hash": "e1919af2e73065418767e887cf5cfe38ef524636d0272e8efe756755e0bd2f93"
+        }
+    },
+    "bin": "berth.exe",
+    "notes": [
+        "Start the laptop agent when you sign in: berth agent install",
+        "After an update, berth agent restart --if-stale moves a running agent to it."
+    ]
+}
