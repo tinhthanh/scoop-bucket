@@ -2,6 +2,8 @@
 
 [Scoop](https://scoop.sh) manifests for [Vetgo](https://github.com/tinhthanh/shipyard), a fork of Shipyard: run coding agents on your own boxes.
 
+Scoop needs git to add a bucket (`scoop install git`, once):
+
 ```powershell
 scoop bucket add vetgo https://github.com/tinhthanh/scoop-bucket
 scoop install vetgo/vetgo
