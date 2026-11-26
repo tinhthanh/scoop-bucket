@@ -1,16 +1,16 @@
 {
-    "version": "0.3.31-fork.9",
+    "version": "0.3.31-fork.10",
     "description": "Run coding agents on your own boxes: the berth CLI and laptop agent (Vetgo, a fork of Shipyard)",
     "homepage": "https://github.com/tinhthanh/shipyard",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tinhthanh/shipyard/releases/download/v0.3.31-fork.9/berth-windows-amd64.zip",
-            "hash": "845b7d24a1303050f001ecff04b7e669bcbdf4e944b5fb253d1eda16b7578f94"
+            "url": "https://github.com/tinhthanh/shipyard/releases/download/v0.3.31-fork.10/berth-windows-amd64.zip",
+            "hash": "77bf02e1a4f0f6d5b57704044566f36c87635ec97fb6565588d3fda4ee7caf6f"
         },
         "arm64": {
-            "url": "https://github.com/tinhthanh/shipyard/releases/download/v0.3.31-fork.9/berth-windows-arm64.zip",
-            "hash": "fb42af05a018142a9f9fd236c99ceb65491d6fd394f62dd8c591c5fdab63ed2e"
+            "url": "https://github.com/tinhthanh/shipyard/releases/download/v0.3.31-fork.10/berth-windows-arm64.zip",
+            "hash": "f2e10cf8d3f05414a3707dd797b181af4f77f0838193ad249a6ef08eae38c1e3"
         }
     },
     "bin": "berth.exe",
